@@ -6,7 +6,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *   http://www.apache.org/licenses/LICENSE-2.0
+ *   https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -214,7 +214,7 @@ class AMP
             }
         }
 
-        // What is the server url e.g. http://www.cnn.com (note no trailing /)
+        // What is the server url e.g. https://www.cnn.com (note no trailing /)
         if (empty($options['server_url']) && !empty($_SERVER['SERVER_NAME'])) {
             $server_url = $this->options['request_scheme'] . $_SERVER['SERVER_NAME'];
             if (!empty($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] != '80') {
@@ -223,7 +223,7 @@ class AMP
             $this->options['server_url'] = $server_url;
         }
 
-        // What is the base relative directory. For http://www.cnn.com/abc/zyz?1234 it is http://www.cnn.com/abc/
+        // What is the base relative directory. For https://www.cnn.com/abc/zyz?1234 it is https://www.cnn.com/abc/
         if (empty($this->options['base_url_for_relative_path']) && !empty($_SERVER['REQUEST_URI'])) {
             $matches = [];
             $full_url = $this->options['server_url'] . $_SERVER['REQUEST_URI'];
