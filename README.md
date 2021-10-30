@@ -120,7 +120,7 @@ Lets see the output of the first example command above. The first few lines is t
 $ cd <amp-php-library-repo-cloned-location>
 $ ./amp-console amp:convert sample-html/sample-html-fragment.html 
 Line  1: <p><a>Run</a></p>
-Line  2: <p><a href="http://www.cnn.com">CNN</a></p>
+Line  2: <p><a href="https://www.cnn.com">CNN</a></p>
 Line  3: <amp-img src="http://i2.cdn.turner.com/cnnnext/dam/assets/160208081229-gaga-superbowl-exlarge-169.jpg" width="780" height="438" layout="responsive"></amp-img>
 Line  4: <p><a href="http://www.bbcnews.com" target="_blank">BBC</a></p>
 Line  5: <p></p>
